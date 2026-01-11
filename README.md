@@ -1,4 +1,4 @@
-# **Chess AI **
+# ** Chess AI **
 
 Live Demo:
 
