@@ -1,4 +1,4 @@
-# **Chess AI (React)**
+# **Chess AI **
 
 Live Demo:
 
@@ -23,7 +23,7 @@ This project is a browser-based chess game where you play as **White** against a
 * Move highlighting:
     * Selected square
     * Last move
-    * Legal move indicators \
+    * Legal move indicators 
 
 
 
@@ -41,7 +41,7 @@ This project is a browser-based chess game where you play as **White** against a
 * Multiple difficulty levels:
     * **Beginner** – shallow search with randomness
     * **Moderate** – balanced search depth
-    * **Advanced** – deeper, deterministic search \
+    * **Advanced** – deeper, deterministic search 
 
 
 
@@ -54,7 +54,7 @@ This project is a browser-based chess game where you play as **White** against a
     * Checkmate
     * Draw
     * Timeout
-* End-of-game overlay displayed on the board \
+* End-of-game overlay displayed on the board 
 
 
 
@@ -66,7 +66,7 @@ This project is a browser-based chess game where you play as **White** against a
 * Light / Dark theme toggle
 * Move list split into White and Black columns
 * Captured pieces tracker for both players
-* Smooth interactions using Framer Motion \
+* Smooth interactions using Framer Motion 
 
 
 
@@ -77,7 +77,7 @@ This project is a browser-based chess game where you play as **White** against a
 * Start / Pause game
 * Reset current game
 * Difficulty selector
-* Theme toggle \
+* Theme toggle 
 
 
 
@@ -90,30 +90,30 @@ This project is a browser-based chess game where you play as **White** against a
 * Tailwind CSS
 * Framer Motion
 * chess.js
-* Custom JavaScript chess engine \
+* Custom JavaScript chess engine 
 
 
 
 ## **Project Structure**
 
-src \
-assets – SVG chess pieces \
-engine – minimax engine and evaluation logic \
-ChessApp.jsx – UI, clocks, and game state \
-main.jsx \
+src 
+assets – SVG chess pieces 
+engine – minimax engine and evaluation logic 
+ChessApp.jsx – UI, clocks, and game state 
+main.jsx 
 index.css
 
 
 ## **Running Locally**
 
-Install dependencies \
+Install dependencies 
  npm install
 
-Run development server \
+Run development server 
  npm run dev
 
-Create production build \
- npm run build \
+Create production build 
+ npm run build 
  npm run preview
 
 
@@ -128,9 +128,9 @@ Recommended: **Vercel**
 
 
 
-* Build command: `npm run build \
+* Build command: `npm run build`
 `
-* Output directory: `dist \
+* Output directory: `dist`
 `
 
 
@@ -141,12 +141,12 @@ Recommended: **Vercel**
 
 
 
-1. Generate all legal moves using `chess.js \
+1. Generate all legal moves using `chess.js`
 `
-2. Evaluate positions using material, positional tables, and mobility \
+2. Evaluate positions using material, positional tables, and mobility 
 
-3. Search the game tree with minimax and alpha–beta pruning \
+3. Search the game tree with minimax and alpha–beta pruning 
 
-4. Apply difficulty-specific limits (depth, node count, randomness) \
+4. Apply difficulty-specific limits (depth, node count, randomness) 
 
-5. Select the best move for Black by minimizing White’s evaluation \
+5. Select the best move for Black by minimizing White’s evaluation 
