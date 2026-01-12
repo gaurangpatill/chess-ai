@@ -117,7 +117,7 @@ Create production build
  npm run preview
 
 
----
+
 
 
 ## **Deployment**
@@ -128,20 +128,20 @@ Recommended: **Vercel**
 
 
 
-* Build command: `npm run build`
+* Build command: `npm run build
 `
-* Output directory: `dist`
+* Output directory: `dist
 `
 
 
----
+
 
 
 ## **AI Summary**
 
 
 
-1. Generate all legal moves using `chess.js`
+1. Generate all legal moves using `chess.js
 `
 2. Evaluate positions using material, positional tables, and mobility 
 
