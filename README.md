@@ -1,6 +1,6 @@
 # **Chess AI**
 
-Live Demo:
+Live Demo: https://chess-ai-vercel.vercel.app/
 
 Interactive chess vs. AI built with React and Vite, powered by a custom minimax engine running entirely in the browser.
 
